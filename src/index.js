@@ -5,12 +5,12 @@ addEventListener("fetch", (event) => {
 
 const routes = {
   "docker.lyhepj.cn": "https://registry-1.docker.io",
-  "quay-lib.lyhepj.cn": "https://quay.io",
-  "gcr-lib.lyhepj.cn": "https://gcr.io",
-  "k8s-gcr-lib.lyhepj.cn": "https://k8s.gcr.io",
+  "quay.lyhepj.cn": "https://quay.io",
+  "gcr.lyhepj.cn": "https://gcr.io",
+  "k8s-gcr.lyhepj.cn": "https://k8s.gcr.io",
   "k8s-lib.lyhepj.cn": "https://registry.k8s.io",
-  "ghcr-lib.lyhepj.cn": "https://ghcr.io",
-  "cloudsmith-lib.lyhepj.cn": "https://docker.cloudsmith.io",
+  "ghcr.lyhepj.cn": "https://ghcr.io",
+  "cloudsmith.lyhepj.cn": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
